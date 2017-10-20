@@ -28,7 +28,7 @@ jobs:
       enabled: true
     working_directory: ~/app
     environment:
-      APP_NAME: keycloak
+      APP_NAME: pgweb
     steps:
       - checkout
       - run:
